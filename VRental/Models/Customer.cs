@@ -17,7 +17,7 @@ namespace VRental.Models
 
 
         [Display (Name = "Date of Birth")]
-        [Min18YearsIfAMember]
+       // [Min18YearsIfAMember]
         public DateTime? Birthdate { get; set; }
         public bool IsSubscribedToNewsletter { get; set; }
         public MembershipType MembershipType { get; set; }
