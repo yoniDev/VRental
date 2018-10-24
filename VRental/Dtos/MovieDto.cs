@@ -19,5 +19,8 @@ namespace VRental.Dtos
         public DateTime AddedDate { get; set; }
         
         public byte NumbersInStock { get; set; }
+
+        [Required]
+        public byte GenreId { get; set; }
     }
 }

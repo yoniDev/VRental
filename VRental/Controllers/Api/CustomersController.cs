@@ -50,7 +50,7 @@ namespace VRental.Controllers.Api
 
             customerDto.Id = customer.Id;
 
-            return Created(new Uri(Request.RequestUri + "/" + customer.Id), customer );
+            return Created(new Uri(Request.RequestUri + "/" + customer.Id), customerDto );
         }
 
         // PUT api/customers/id

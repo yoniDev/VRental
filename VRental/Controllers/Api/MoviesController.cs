@@ -50,7 +50,7 @@ namespace VRental.Controllers.Api
 
             movieDto.Id = movie.Id;
 
-            return Created(new Uri(Request.RequestUri + "/" + movie.Id), movie);
+            return Created(new Uri(Request.RequestUri + "/" + movie.Id), movieDto);
         }
 
         // PUT api/movies/id
@@ -65,7 +65,7 @@ namespace VRental.Controllers.Api
             if (movieInDb == null)
                 return NotFound();
 
-            Mapper.Map<MovieDto, Movie>(movieDto);
+            Mapper.Map(movieDto, movieInDb);
             _context.SaveChanges();
 
             return Ok();
