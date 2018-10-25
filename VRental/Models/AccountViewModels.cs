@@ -65,6 +65,10 @@ namespace VRental.Models
     public class RegisterViewModel
     {
         [Required]
+        [Display(Name = "Phone number")]
+        public string PhoneNumber { get; set; }
+
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }

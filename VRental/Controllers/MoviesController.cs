@@ -26,7 +26,10 @@ namespace VRental.Controllers
 
         public ActionResult Index(int? id)
         {
-            return View();
+            if(User.IsInRole(RoleNames.CanManageMovies))
+            return View("List");
+
+            return View("ReadOnlyList");
         }
 
         public ActionResult Details(int id)
@@ -42,6 +45,7 @@ namespace VRental.Controllers
             }
         }
 
+        [Authorize(Roles = RoleNames.CanManageMovies)]
         public ActionResult New()
         {
             var genres = _context.Genres.ToList();
