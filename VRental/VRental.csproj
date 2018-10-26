@@ -251,73 +251,13 @@
     <Compile Include="Migrations\201810111314375_AddAnnotationToCustomerName.Designer.cs">
       <DependentUpon>201810111314375_AddAnnotationToCustomerName.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201810111407250_AddNameToMembershipType.cs" />
-    <Compile Include="Migrations\201810111407250_AddNameToMembershipType.Designer.cs">
-      <DependentUpon>201810111407250_AddNameToMembershipType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111533425_AddNameToMembershipType1.cs" />
-    <Compile Include="Migrations\201810111533425_AddNameToMembershipType1.Designer.cs">
-      <DependentUpon>201810111533425_AddNameToMembershipType1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201810111551505_AddNameToMembershipType2.cs" />
     <Compile Include="Migrations\201810111551505_AddNameToMembershipType2.Designer.cs">
       <DependentUpon>201810111551505_AddNameToMembershipType2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201810111558164_AddBirthdateToCustomer.cs" />
-    <Compile Include="Migrations\201810111558164_AddBirthdateToCustomer.Designer.cs">
-      <DependentUpon>201810111558164_AddBirthdateToCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111624262_AddBirthdateToCustomer1.cs" />
-    <Compile Include="Migrations\201810111624262_AddBirthdateToCustomer1.Designer.cs">
-      <DependentUpon>201810111624262_AddBirthdateToCustomer1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111628420_AddBirthdateToCustomer2.cs" />
-    <Compile Include="Migrations\201810111628420_AddBirthdateToCustomer2.Designer.cs">
-      <DependentUpon>201810111628420_AddBirthdateToCustomer2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111633338_AddBirthdateToCustomer3.cs" />
-    <Compile Include="Migrations\201810111633338_AddBirthdateToCustomer3.Designer.cs">
-      <DependentUpon>201810111633338_AddBirthdateToCustomer3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111639496_AddBirthdateToCustomer4.cs" />
-    <Compile Include="Migrations\201810111639496_AddBirthdateToCustomer4.Designer.cs">
-      <DependentUpon>201810111639496_AddBirthdateToCustomer4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111649150_RemoveBirthdateToCustomer.cs" />
-    <Compile Include="Migrations\201810111649150_RemoveBirthdateToCustomer.Designer.cs">
-      <DependentUpon>201810111649150_RemoveBirthdateToCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111650203_AddBirthdateBackToCustomer.cs" />
-    <Compile Include="Migrations\201810111650203_AddBirthdateBackToCustomer.Designer.cs">
-      <DependentUpon>201810111650203_AddBirthdateBackToCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111654233_PopulateBirthdayForCustomer.cs" />
-    <Compile Include="Migrations\201810111654233_PopulateBirthdayForCustomer.Designer.cs">
-      <DependentUpon>201810111654233_PopulateBirthdayForCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111735423_AddedGenerAndPropertiesToMovies.cs" />
-    <Compile Include="Migrations\201810111735423_AddedGenerAndPropertiesToMovies.Designer.cs">
-      <DependentUpon>201810111735423_AddedGenerAndPropertiesToMovies.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111739115_PopulateGener.cs" />
-    <Compile Include="Migrations\201810111739115_PopulateGener.Designer.cs">
-      <DependentUpon>201810111739115_PopulateGener.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111757323_AddedPropertiesToMovies.cs" />
-    <Compile Include="Migrations\201810111757323_AddedPropertiesToMovies.Designer.cs">
-      <DependentUpon>201810111757323_AddedPropertiesToMovies.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111759456_PopulateGenreTable.cs" />
-    <Compile Include="Migrations\201810111759456_PopulateGenreTable.Designer.cs">
-      <DependentUpon>201810111759456_PopulateGenreTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111824476_AddgenersTable.cs" />
-    <Compile Include="Migrations\201810111824476_AddgenersTable.Designer.cs">
-      <DependentUpon>201810111824476_AddgenersTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810111831227_PopulateGenreTable1.cs" />
-    <Compile Include="Migrations\201810111831227_PopulateGenreTable1.Designer.cs">
-      <DependentUpon>201810111831227_PopulateGenreTable1.cs</DependentUpon>
+    <Compile Include="Migrations\201810111650203_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201810111650203_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201810111650203_AddBirthdateToCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201810111842033_AddgenreToMovies.cs" />
     <Compile Include="Migrations\201810111842033_AddgenreToMovies.Designer.cs">
@@ -326,18 +266,6 @@
     <Compile Include="Migrations\201810111844392_PopulateGenreTable2.cs" />
     <Compile Include="Migrations\201810111844392_PopulateGenreTable2.Designer.cs">
       <DependentUpon>201810111844392_PopulateGenreTable2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810112023161_PopulateGenreTable3.cs" />
-    <Compile Include="Migrations\201810112023161_PopulateGenreTable3.Designer.cs">
-      <DependentUpon>201810112023161_PopulateGenreTable3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810112028596_UpdateMovieTable.cs" />
-    <Compile Include="Migrations\201810112028596_UpdateMovieTable.Designer.cs">
-      <DependentUpon>201810112028596_UpdateMovieTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201810112054069_UpdateMovieTable1.cs" />
-    <Compile Include="Migrations\201810112054069_UpdateMovieTable1.Designer.cs">
-      <DependentUpon>201810112054069_UpdateMovieTable1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201810201837148_ChangedMovieDataAnnotations.cs" />
     <Compile Include="Migrations\201810201837148_ChangedMovieDataAnnotations.Designer.cs">
@@ -633,71 +561,17 @@
     <EmbeddedResource Include="Migrations\201810111314375_AddAnnotationToCustomerName.resx">
       <DependentUpon>201810111314375_AddAnnotationToCustomerName.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111407250_AddNameToMembershipType.resx">
-      <DependentUpon>201810111407250_AddNameToMembershipType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111533425_AddNameToMembershipType1.resx">
-      <DependentUpon>201810111533425_AddNameToMembershipType1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810111551505_AddNameToMembershipType2.resx">
       <DependentUpon>201810111551505_AddNameToMembershipType2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111558164_AddBirthdateToCustomer.resx">
-      <DependentUpon>201810111558164_AddBirthdateToCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111624262_AddBirthdateToCustomer1.resx">
-      <DependentUpon>201810111624262_AddBirthdateToCustomer1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111628420_AddBirthdateToCustomer2.resx">
-      <DependentUpon>201810111628420_AddBirthdateToCustomer2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111633338_AddBirthdateToCustomer3.resx">
-      <DependentUpon>201810111633338_AddBirthdateToCustomer3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111639496_AddBirthdateToCustomer4.resx">
-      <DependentUpon>201810111639496_AddBirthdateToCustomer4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111649150_RemoveBirthdateToCustomer.resx">
-      <DependentUpon>201810111649150_RemoveBirthdateToCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111650203_AddBirthdateBackToCustomer.resx">
-      <DependentUpon>201810111650203_AddBirthdateBackToCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111654233_PopulateBirthdayForCustomer.resx">
-      <DependentUpon>201810111654233_PopulateBirthdayForCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111735423_AddedGenerAndPropertiesToMovies.resx">
-      <DependentUpon>201810111735423_AddedGenerAndPropertiesToMovies.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111739115_PopulateGener.resx">
-      <DependentUpon>201810111739115_PopulateGener.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111757323_AddedPropertiesToMovies.resx">
-      <DependentUpon>201810111757323_AddedPropertiesToMovies.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111759456_PopulateGenreTable.resx">
-      <DependentUpon>201810111759456_PopulateGenreTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111824476_AddgenersTable.resx">
-      <DependentUpon>201810111824476_AddgenersTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810111831227_PopulateGenreTable1.resx">
-      <DependentUpon>201810111831227_PopulateGenreTable1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201810111650203_AddBirthdateToCustomer.resx">
+      <DependentUpon>201810111650203_AddBirthdateToCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810111842033_AddgenreToMovies.resx">
       <DependentUpon>201810111842033_AddgenreToMovies.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810111844392_PopulateGenreTable2.resx">
       <DependentUpon>201810111844392_PopulateGenreTable2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810112023161_PopulateGenreTable3.resx">
-      <DependentUpon>201810112023161_PopulateGenreTable3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810112028596_UpdateMovieTable.resx">
-      <DependentUpon>201810112028596_UpdateMovieTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201810112054069_UpdateMovieTable1.resx">
-      <DependentUpon>201810112054069_UpdateMovieTable1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810201837148_ChangedMovieDataAnnotations.resx">
       <DependentUpon>201810201837148_ChangedMovieDataAnnotations.cs</DependentUpon>
