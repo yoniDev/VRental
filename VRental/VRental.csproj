@@ -275,6 +275,10 @@
     <Compile Include="Migrations\201810251843013_users.Designer.cs">
       <DependentUpon>201810251843013_users.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810271642564_addPhoneToApplicationUser.cs" />
+    <Compile Include="Migrations\201810271642564_addPhoneToApplicationUser.Designer.cs">
+      <DependentUpon>201810271642564_addPhoneToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -578,6 +582,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810251843013_users.resx">
       <DependentUpon>201810251843013_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810271642564_addPhoneToApplicationUser.resx">
+      <DependentUpon>201810271642564_addPhoneToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
