@@ -29,6 +29,8 @@ namespace VRental.Models
         
         [Display(Name = "Numbers in Stock")]
         public byte NumbersInStock { get; set; }
+
+        public byte NumberAvailable { get; set; }
     }
     
 }
